@@ -1,0 +1,15 @@
+.event{
+    padding-bottom: 3px;
+    padding-top: 3px;
+    background-color: rgba(63, 55, 55, 0.87);
+    
+}
+hr.new1 {
+    border: 3px solid orange;
+    border-radius: 2px;
+}
+#para{
+    text-align: justify;
+    justify-content: center;
+    justify-items: center;
+}

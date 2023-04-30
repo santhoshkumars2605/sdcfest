@@ -1,0 +1,137 @@
+
+/*navbar*/
+
+.navbar{
+    /* padding: 10px; */
+    transition: 1s;
+    }
+    .navbar.scroll{
+    background: rgba(0, 0, 0, 0.623);
+    }
+    .navbar-brand{
+    
+    font-weight:100;
+    font-style: normal;
+    font-family: Verdana;
+    font-weight: bold;
+    /* padding-left: 130px; */
+    font-size: 30px;
+    color: #fff !important;
+    text-transform: capitalize;
+    }
+    .scroll .logo,
+    .scroll ul li a{
+    color: #000;
+    }
+    .navbar-nav{
+    padding-left:800px;
+    font-size: 15px;
+    color: black;
+    }
+    @media (max-width: 978px){
+        .navbar-nav{
+            padding-left: 0px;
+        }
+    }
+    
+    .nav-link{
+    font-weight: bold;
+    font-style: italic;
+    color: #fff !important;
+    margin-left: 5px;
+    transition: 0.6s;
+    border-radius: 20px;
+    text-transform: capitalize;
+    }
+    .nav-link:hover{
+    transform: translateY(-2px);
+    background: #dc3445;
+    }
+    .logo{
+    position: fixed;
+    left: 65px;
+    top: 25px;
+    }
+    
+    /*header*/
+    
+    .header{
+    margin: 0;
+    padding: 0;
+    }
+    .header .img-parent{
+    position: relative;
+    }
+    .img{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.9;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('sdcimages/cc.jpg');
+    background-size: cover;
+    background-position: center ;
+    background-blend-mode: darken;
+    
+    }
+    
+    .header.img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    z-index: 1;
+    }
+    .header .img-content{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%,-50%);
+    color: #fff !important;
+    text-align: center !important;
+    justify-content: center !important;
+    }
+    .header .img-content h1{
+    font-size: 43px;
+    font-weight: bolder;
+    font-style: normal;
+    margin-bottom: 30px !important;
+    color: orange;
+    }
+    .header .img-content h2{
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: normal;
+    margin-bottom: 30px !important;
+    color: darkgray;
+    }
+    .header .img-content h3{
+    font-size: 90px;
+    font-weight: bolder;
+    font-style: normal;
+    margin-bottom: 30px !important;
+    color:orange;
+    }
+    .header .img-content h4{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    text-align:center;
+    }
+    
+    /*Event selection*/
+    
+    h1{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top: 20px;
+    }
+    h2{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 60px;
+    margin-top: 10px;
+    text-align: center;
+    }
